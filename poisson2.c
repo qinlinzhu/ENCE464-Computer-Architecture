@@ -10,20 +10,9 @@
 #include <xmmintrin.h>  // SSE intrinsics
 #include <emmintrin.h>  // SSE2 intrinsics
 /**
-* TODO:
-* 1 - Read through this example, understand what it does and what it gives you
-*     to work with.
-* 2 - Implement the basic algorithm and get a correct output.
-* 3 - Add a timer to track how long your execution takes.
-* 4 - Profile your solution and identify weaknesses.
-* 5 - Improve it!
-* 6 - Remember that this is now *your* code and *you* should modify it however
-*     needed to solve the assignment.
 * BUILDING :
 * gcc -O3 -march=native -funroll-loops -fopenmp -o poisson poisson.c -pthread -g -pg
 *
-* See the lab notes for a guide on profiling and an introduction to
-* multithreading (see also threads.c which is reference by the lab notes).
 */
 
 #define NUM_THREADS 6
